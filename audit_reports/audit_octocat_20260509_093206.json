@@ -1,0 +1,28 @@
+{
+  "candidate_id": "octocat",
+  "generated_at": "2026-05-09T09:32:06.264443",
+  "nd_signal_detected": false,
+  "proxies_removed": [
+    "accent_flag",
+    "age_proxy",
+    "career_gap_penalty",
+    "communication_style_score",
+    "grammar_score",
+    "interview_poise_score",
+    "profile_completeness_score",
+    "profile_photo_score",
+    "university_prestige_score"
+  ],
+  "fairness_score": 0.9,
+  "selection_factors": [
+    "Verified skill: Frontend Development",
+    "Verified skill: Version Control",
+    "Verified skill: Problem Solving"
+  ],
+  "risk_flags": [
+    "Very low embedding match \u2014 verify JD alignment before proceeding"
+  ],
+  "nd_strength_uplifts": [],
+  "recommendation_before_inclusion": "no",
+  "recommendation_after_inclusion": "no"
+}

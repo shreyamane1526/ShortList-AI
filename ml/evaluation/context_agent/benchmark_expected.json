@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "expected_output": {
+      "role": "Backend Platform Engineer",
+      "required_skills": [
+        {
+          "name": "Golang",
+          "importance": 0.92
+        },
+        {
+          "name": "Microservices",
+          "importance": 0.88
+        },
+        {
+          "name": "PostgreSQL",
+          "importance": 0.86
+        },
+        {
+          "name": "Distributed Systems",
+          "importance": 0.84
+        }
+      ],
+      "preferred_skills": [
+        {
+          "name": "Docker",
+          "importance": 0.72
+        },
+        {
+          "name": "Kafka",
+          "importance": 0.70
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "expected_output": {
+      "role": "Frontend Developer",
+      "required_skills": [
+        {
+          "name": "React",
+          "importance": 0.94
+        },
+        {
+          "name": "TypeScript",
+          "importance": 0.90
+        },
+        {
+          "name": "State Management",
+          "importance": 0.78
+        }
+      ],
+      "preferred_skills": []
+    }
+  },
+  {
+    "id": 3,
+    "expected_output": {
+      "role": "AI Engineer",
+      "required_skills": [
+        {
+          "name": "Large Language Models",
+          "importance": 0.94
+        },
+        {
+          "name": "Vector Databases",
+          "importance": 0.86
+        },
+        {
+          "name": "LangChain",
+          "importance": 0.82
+        },
+        {
+          "name": "Retrieval Augmented Generation",
+          "importance": 0.88
+        }
+      ],
+      "preferred_skills": []
+    }
+  },
+  {
+    "id": 4,
+    "expected_output": {
+      "role": "Cloud Infrastructure Engineer",
+      "required_skills": [
+        {
+          "name": "AWS",
+          "importance": 0.94
+        },
+        {
+          "name": "Terraform",
+          "importance": 0.90
+        },
+        {
+          "name": "Kubernetes",
+          "importance": 0.88
+        },
+        {
+          "name": "Infrastructure Automation",
+          "importance": 0.82
+        }
+      ],
+      "preferred_skills": []
+    }
+  },
+  {
+    "id": 5,
+    "expected_output": {
+      "role": "Data Scientist",
+      "required_skills": [
+        {
+          "name": "Machine Learning",
+          "importance": 0.92
+        },
+        {
+          "name": "Python",
+          "importance": 0.90
+        },
+        {
+          "name": "SQL",
+          "importance": 0.84
+        },
+        {
+          "name": "Statistical Analysis",
+          "importance": 0.82
+        }
+      ],
+      "preferred_skills": [
+        {
+          "name": "Predictive Modeling",
+          "importance": 0.72
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "expected_output": {
+      "role": "Security Engineer",
+      "required_skills": [
+        {
+          "name": "SIEM",
+          "importance": 0.90
+        },
+        {
+          "name": "Threat Detection",
+          "importance": 0.88
+        },
+        {
+          "name": "Cloud Security",
+          "importance": 0.82
+        }
+      ],
+      "preferred_skills": []
+    }
+  },
+  {
+    "id": 7,
+    "expected_output": {
+      "role": "Mobile Engineer",
+      "required_skills": [
+        {
+          "name": "Flutter",
+          "importance": 0.94
+        },
+        {
+          "name": "Firebase",
+          "importance": 0.80
+        },
+        {
+          "name": "Mobile Applications",
+          "importance": 0.78
+        }
+      ],
+      "preferred_skills": []
+    }
+  },
+  {
+    "id": 8,
+    "expected_output": {
+      "role": "MLOps Specialist",
+      "required_skills": [
+        {
+          "name": "MLflow",
+          "importance": 0.86
+        },
+        {
+          "name": "Docker",
+          "importance": 0.88
+        },
+        {
+          "name": "Kubernetes",
+          "importance": 0.90
+        },
+        {
+          "name": "Model Deployment Pipelines",
+          "importance": 0.84
+        }
+      ],
+      "preferred_skills": []
+    }
+  },
+  {
+    "id": 9,
+    "expected_output": {
+      "role": "Site Reliability Engineer",
+      "required_skills": [
+        {
+          "name": "Prometheus",
+          "importance": 0.84
+        },
+        {
+          "name": "Grafana",
+          "importance": 0.82
+        },
+        {
+          "name": "Linux",
+          "importance": 0.86
+        },
+        {
+          "name": "Incident Response",
+          "importance": 0.80
+        }
+      ],
+      "preferred_skills": []
+    }
+  },
+  {
+    "id": 10,
+    "expected_output": {
+      "role": "QA Automation Specialist",
+      "required_skills": [
+        {
+          "name": "Playwright",
+          "importance": 0.88
+        },
+        {
+          "name": "Selenium",
+          "importance": 0.90
+        },
+        {
+          "name": "API Testing",
+          "importance": 0.84
+        }
+      ],
+      "preferred_skills": []
+    }
+  }
+]

@@ -1,0 +1,379 @@
+
+
+[
+{
+"job_description": "We are looking for a Backend Engineer with experience building scalable APIs and distributed systems. Requirements: Python, FastAPI, PostgreSQL, Docker. Preferred: Redis and AWS.",
+"output": {
+"role": "Backend Engineer",
+"required_skills": [
+{
+"name": "Python",
+"importance": 0.95
+},
+{
+"name": "FastAPI",
+"importance": 0.92
+},
+{
+"name": "PostgreSQL",
+"importance": 0.9
+},
+{
+"name": "Docker",
+"importance": 0.85
+}
+],
+"preferred_skills": [
+{
+"name": "Redis",
+"importance": 0.7
+},
+{
+"name": "AWS",
+"importance": 0.65
+}
+]
+}
+},
+{
+"job_description": "Seeking a Frontend Engineer with React and TypeScript experience to build responsive interfaces. Preferred: Next.js and Tailwind CSS.",
+"output": {
+"role": "Frontend Engineer",
+"required_skills": [
+{
+"name": "React",
+"importance": 0.95
+},
+{
+"name": "TypeScript",
+"importance": 0.9
+}
+],
+"preferred_skills": [
+{
+"name": "Next.js",
+"importance": 0.75
+},
+{
+"name": "Tailwind CSS",
+"importance": 0.65
+}
+]
+}
+},
+{
+"job_description": "Hiring a Machine Learning Engineer to develop and deploy deep learning models for production systems. Requirements include Python, PyTorch, model evaluation and data preprocessing. Preferred: MLOps and Kubernetes.",
+"output": {
+"role": "Machine Learning Engineer",
+"required_skills": [
+{
+"name": "Python",
+"importance": 0.95
+},
+{
+"name": "PyTorch",
+"importance": 0.93
+},
+{
+"name": "Model Evaluation",
+"importance": 0.85
+},
+{
+"name": "Data Preprocessing",
+"importance": 0.82
+}
+],
+"preferred_skills": [
+{
+"name": "MLOps",
+"importance": 0.72
+},
+{
+"name": "Kubernetes",
+"importance": 0.65
+}
+]
+}
+},
+{
+"job_description": "Looking for a DevOps Engineer experienced in CI/CD pipelines, Docker, Terraform and Kubernetes.",
+"output": {
+"role": "DevOps Engineer",
+"required_skills": [
+{
+"name": "CI/CD",
+"importance": 0.9
+},
+{
+"name": "Docker",
+"importance": 0.9
+},
+{
+"name": "Terraform",
+"importance": 0.88
+},
+{
+"name": "Kubernetes",
+"importance": 0.95
+}
+],
+"preferred_skills": []
+}
+},
+{
+"job_description": "We are seeking a Cloud Engineer to manage AWS infrastructure and cloud-native deployments. Experience with networking and Linux administration is required.",
+"output": {
+"role": "Cloud Engineer",
+"required_skills": [
+{
+"name": "AWS",
+"importance": 0.95
+},
+{
+"name": "Networking",
+"importance": 0.82
+},
+{
+"name": "Linux",
+"importance": 0.84
+}
+],
+"preferred_skills": [
+{
+"name": "Cloud-Native Deployments",
+"importance": 0.7
+}
+]
+}
+},
+{
+"job_description": "Seeking a Data Engineer to build ETL pipelines and large-scale data processing systems using Spark and SQL.",
+"output": {
+"role": "Data Engineer",
+"required_skills": [
+{
+"name": "ETL Pipelines",
+"importance": 0.9
+},
+{
+"name": "Apache Spark",
+"importance": 0.92
+},
+{
+"name": "SQL",
+"importance": 0.9
+}
+],
+"preferred_skills": [
+{
+"name": "Data Processing",
+"importance": 0.72
+}
+]
+}
+},
+{
+"job_description": "Looking for a Mobile Application Developer with experience in Flutter, API integration and mobile UI development.",
+"output": {
+"role": "Mobile Application Developer",
+"required_skills": [
+{
+"name": "Flutter",
+"importance": 0.95
+},
+{
+"name": "API Integration",
+"importance": 0.82
+},
+{
+"name": "Mobile UI Development",
+"importance": 0.84
+}
+],
+"preferred_skills": []
+}
+},
+{
+"job_description": "Seeking a Cybersecurity Analyst to monitor threats, handle incident response and perform vulnerability assessments.",
+"output": {
+"role": "Cybersecurity Analyst",
+"required_skills": [
+{
+"name": "Threat Monitoring",
+"importance": 0.88
+},
+{
+"name": "Incident Response",
+"importance": 0.9
+},
+{
+"name": "Vulnerability Assessment",
+"importance": 0.88
+}
+],
+"preferred_skills": []
+}
+},
+{
+"job_description": "Hiring a Full Stack Engineer with React, Node.js and PostgreSQL experience. Docker knowledge is preferred.",
+"output": {
+"role": "Full Stack Engineer",
+"required_skills": [
+{
+"name": "React",
+"importance": 0.9
+},
+{
+"name": "Node.js",
+"importance": 0.9
+},
+{
+"name": "PostgreSQL",
+"importance": 0.85
+}
+],
+"preferred_skills": [
+{
+"name": "Docker",
+"importance": 0.7
+}
+]
+}
+},
+{
+"job_description": "Looking for an AI Research Engineer to work on transformers, NLP systems and generative AI infrastructure.",
+"output": {
+"role": "AI Research Engineer",
+"required_skills": [
+{
+"name": "Transformers",
+"importance": 0.94
+},
+{
+"name": "Natural Language Processing",
+"importance": 0.9
+},
+{
+"name": "Generative AI",
+"importance": 0.88
+}
+],
+"preferred_skills": [
+{
+"name": "AI Infrastructure",
+"importance": 0.7
+}
+]
+}
+},
+{
+"job_description": "Seeking a QA Automation Engineer experienced in Selenium, API testing and automation frameworks.",
+"output": {
+"role": "QA Automation Engineer",
+"required_skills": [
+{
+"name": "Selenium",
+"importance": 0.92
+},
+{
+"name": "API Testing",
+"importance": 0.85
+},
+{
+"name": "Automation Frameworks",
+"importance": 0.84
+}
+],
+"preferred_skills": []
+}
+},
+{
+"job_description": "Hiring a Site Reliability Engineer to maintain reliable production systems using Kubernetes, Linux and monitoring tools.",
+"output": {
+"role": "Site Reliability Engineer",
+"required_skills": [
+{
+"name": "Kubernetes",
+"importance": 0.95
+},
+{
+"name": "Linux",
+"importance": 0.88
+},
+{
+"name": "Monitoring Tools",
+"importance": 0.84
+}
+],
+"preferred_skills": []
+}
+},
+{
+"job_description": "Seeking a Product Manager with experience in product strategy, roadmap planning and agile methodologies.",
+"output": {
+"role": "Product Manager",
+"required_skills": [
+{
+"name": "Product Strategy",
+"importance": 0.92
+},
+{
+"name": "Roadmap Planning",
+"importance": 0.86
+},
+{
+"name": "Agile Methodologies",
+"importance": 0.84
+}
+],
+"preferred_skills": []
+}
+},
+{
+"job_description": "Looking for a UI/UX Designer experienced in Figma, user research and prototyping.",
+"output": {
+"role": "UI/UX Designer",
+"required_skills": [
+{
+"name": "Figma",
+"importance": 0.9
+},
+{
+"name": "User Research",
+"importance": 0.86
+},
+{
+"name": "Prototyping",
+"importance": 0.84
+}
+],
+"preferred_skills": []
+}
+},
+{
+"job_description": "Hiring an MLOps Engineer to operationalize machine learning workflows using Docker, Kubernetes and MLflow.",
+"output": {
+"role": "MLOps Engineer",
+"required_skills": [
+{
+"name": "Machine Learning Workflows",
+"importance": 0.88
+},
+{
+"name": "Docker",
+"importance": 0.9
+},
+{
+"name": "Kubernetes",
+"importance": 0.92
+}
+],
+"preferred_skills": [
+{
+"name": "MLflow",
+"importance": 0.72
+}
+]
+}
+}
+]

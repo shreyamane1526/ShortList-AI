@@ -1,0 +1,26 @@
+{
+  "candidate_id": "torvalds",
+  "generated_at": "2026-05-09T07:58:26.847691",
+  "nd_signal_detected": false,
+  "proxies_removed": [
+    "accent_flag",
+    "age_proxy",
+    "career_gap_penalty",
+    "communication_style_score",
+    "grammar_score",
+    "interview_poise_score",
+    "profile_completeness_score",
+    "profile_photo_score",
+    "university_prestige_score"
+  ],
+  "fairness_score": 1.0,
+  "selection_factors": [
+    "Verified skill: Strong background in C and Linux kernel development",
+    "Verified skill: Experience in embedded systems, digital signal processing, and backend development",
+    "High evidence authenticity: 100/100"
+  ],
+  "risk_flags": [],
+  "nd_strength_uplifts": [],
+  "recommendation_before_inclusion": "yes",
+  "recommendation_after_inclusion": "no"
+}

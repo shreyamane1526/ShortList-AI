@@ -1,0 +1,45 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Node
+node_modules/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Database
+*.db
+
+# Logs
+*.log
+
+# Build
+dist/
+build/
+
+# Docker
+postgres_data/
+redis_data/
+
+# Vector DB
+qdrant_storage/
+chroma/
+
+# ML artifacts
+*.pkl
+*.joblib
+
+# Cache
+.cache/
+.pytest_cache/

@@ -1,0 +1,274 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── OpenDyslexic font ───────────────────────────────────────────────────── */
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('https://cdn.jsdelivr.net/npm/open-dyslexic@latest/OpenDyslexic-Regular.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/npm/open-dyslexic@latest/OpenDyslexic-Regular.otf') format('opentype');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('https://cdn.jsdelivr.net/npm/open-dyslexic@latest/OpenDyslexic-Bold.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/npm/open-dyslexic@latest/OpenDyslexic-Bold.otf') format('opentype');
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+
+/* ── Base ────────────────────────────────────────────────────────────────── */
+@layer base {
+  html, body, #root { height: 100%; }
+  * { box-sizing: border-box; }
+
+  body {
+    @apply antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--nd-bg, #F9FAFB);
+    color: var(--nd-text, #111827);
+    line-height: var(--nd-line-height, 1.6);
+    letter-spacing: var(--nd-letter-spacing, 0);
+    word-spacing: var(--nd-word-spacing, 0);
+  }
+
+  /* Never justify — always left-align */
+  body, p, li, td, th, blockquote, figcaption { text-align: left !important; }
+
+  ::-webkit-scrollbar        { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track  { @apply bg-gray-100; }
+  ::-webkit-scrollbar-thumb  { @apply bg-gray-300 rounded-full; }
+  ::-webkit-scrollbar-thumb:hover { @apply bg-gray-400; }
+}
+
+/* ── Focus ring ──────────────────────────────────────────────────────────── */
+*:focus-visible {
+  outline: 3px solid var(--nd-focus-bg, #4F46E5) !important;
+  outline-offset: 3px !important;
+}
+*:focus:not(:focus-visible) { outline: none; }
+
+/* ── Reduced motion (system preference) ─────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ── Remove animations toggle ────────────────────────────────────────────── */
+html[data-no-anim="true"] *, html[data-no-anim="true"] *::before, html[data-no-anim="true"] *::after {
+  animation: none !important;
+  transition: none !important;
+}
+
+/* ══════════════════════════════════════════════════════════════════════════ */
+/*  DYSLEXIA MODE                                                             */
+/* ══════════════════════════════════════════════════════════════════════════ */
+html[data-dyslexia="true"] body,
+html[data-dyslexia="true"] p,
+html[data-dyslexia="true"] li,
+html[data-dyslexia="true"] span,
+html[data-dyslexia="true"] div,
+html[data-dyslexia="true"] button,
+html[data-dyslexia="true"] input,
+html[data-dyslexia="true"] textarea,
+html[data-dyslexia="true"] select,
+html[data-dyslexia="true"] label,
+html[data-dyslexia="true"] h1,
+html[data-dyslexia="true"] h2,
+html[data-dyslexia="true"] h3,
+html[data-dyslexia="true"] h4 {
+  font-family: 'OpenDyslexic', sans-serif !important;
+  letter-spacing: 0.05em !important;
+  line-height: 1.9 !important;
+  word-spacing: 0.15em !important;
+}
+
+/* Highlight links for dyslexia */
+html[data-hi-links="true"] a,
+html[data-hi-links="true"] button[role="link"] {
+  text-decoration: underline !important;
+  font-weight: 700 !important;
+  text-underline-offset: 3px !important;
+}
+
+/* ══════════════════════════════════════════════════════════════════════════ */
+/*  ADHD / FOCUS MODE                                                         */
+/* ══════════════════════════════════════════════════════════════════════════ */
+html[data-focus-mode="true"] .card {
+  transition: opacity 180ms ease;
+}
+html[data-focus-mode="true"] .card:not(.nd-focused) {
+  opacity: 0.12;
+  pointer-events: none;
+}
+html[data-focus-mode="true"] .card.nd-focused {
+  opacity: 1 !important;
+  pointer-events: auto;
+  box-shadow: 0 0 0 3px var(--nd-focus-bg, #4F46E5), 0 8px 32px rgba(0,0,0,0.12) !important;
+}
+
+/* Hide decorative elements in focus mode */
+html[data-hide-dist="true"] .nd-decorative,
+html[data-focus-mode="true"] .nd-decorative {
+  display: none !important;
+}
+
+/* Chunk content — extra breathing room between sections */
+html[data-chunk="true"] .card,
+html[data-chunk="true"] section,
+html[data-chunk="true"] .space-y-3 > *,
+html[data-chunk="true"] .space-y-4 > *,
+html[data-chunk="true"] .space-y-5 > * {
+  margin-bottom: 1.5rem !important;
+}
+html[data-chunk="true"] p,
+html[data-chunk="true"] li {
+  margin-bottom: 0.6rem !important;
+}
+
+/* ══════════════════════════════════════════════════════════════════════════ */
+/*  AUTISM / SENSORY REDUCTION                                                */
+/* ══════════════════════════════════════════════════════════════════════════ */
+html[data-sensory="true"] * {
+  background-image: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  border-radius: 4px !important;
+}
+html[data-sensory="true"] .card {
+  border: 1.5px solid var(--nd-border, #E5E7EB) !important;
+  box-shadow: none !important;
+}
+/* Remove gradient backgrounds */
+html[data-sensory="true"] [class*="gradient"],
+html[data-sensory="true"] [class*="from-"],
+html[data-sensory="true"] [class*="to-"] {
+  background: var(--nd-card-bg, #fff) !important;
+  color: var(--nd-text, #111827) !important;
+}
+
+/* Predictable layout — no hover transforms */
+html[data-predictable="true"] *:hover {
+  transform: none !important;
+  scale: none !important;
+}
+html[data-predictable="true"] .hover\:shadow-md:hover,
+html[data-predictable="true"] .hover\:shadow-lg:hover {
+  box-shadow: none !important;
+}
+
+/* Plain language — show simplify buttons everywhere */
+html[data-plain-lang="true"] .nd-simplify-btn {
+  display: inline-flex !important;
+}
+
+/* ══════════════════════════════════════════════════════════════════════════ */
+/*  COLOR THEMES — base card rule                                             */
+/* ══════════════════════════════════════════════════════════════════════════ */
+.card {
+  background-color: var(--nd-card-bg, #FFFFFF) !important;
+  color: var(--nd-text, #111827);
+  border-color: var(--nd-border, #E5E7EB) !important;
+}
+
+/* ══════════════════════════════════════════════════════════════════════════ */
+/*  READING RULER                                                             */
+/* ══════════════════════════════════════════════════════════════════════════ */
+.reading-ruler {
+  pointer-events: none;
+  position: fixed;
+  left: 0; right: 0;
+  z-index: 9999;
+  height: 56px;
+  background: rgba(255, 220, 100, 0.22);
+  border-top: 2px solid rgba(200, 150, 0, 0.4);
+  border-bottom: 2px solid rgba(200, 150, 0, 0.4);
+}
+
+/* ══════════════════════════════════════════════════════════════════════════ */
+/*  FORM HELPERS                                                              */
+/* ══════════════════════════════════════════════════════════════════════════ */
+.nd-char-counter {
+  font-size: 0.7rem;
+  color: var(--nd-muted, #6B7280);
+  text-align: right;
+  margin-top: 2px;
+}
+.nd-helper-text {
+  font-size: 0.75rem;
+  color: var(--nd-muted, #6B7280);
+  margin-top: 4px;
+  line-height: 1.5;
+}
+
+/* ══════════════════════════════════════════════════════════════════════════ */
+/*  BREADCRUMB                                                                */
+/* ══════════════════════════════════════════════════════════════════════════ */
+.nd-breadcrumb {
+  font-size: 0.75rem;
+  color: var(--nd-muted, #6B7280);
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.nd-breadcrumb a { color: var(--nd-muted, #6B7280); text-decoration: none; }
+.nd-breadcrumb a:hover { text-decoration: underline; color: var(--nd-text, #111827); }
+.nd-breadcrumb .current { color: var(--nd-text, #111827); font-weight: 500; }
+
+/* ══════════════════════════════════════════════════════════════════════════ */
+/*  ACCESSIBILITY PANEL SLIDE-IN                                              */
+/* ══════════════════════════════════════════════════════════════════════════ */
+.nd-panel {
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  width: 320px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  background: var(--nd-card-bg, #fff);
+  border-left: 1px solid var(--nd-border, #E5E7EB);
+  box-shadow: -8px 0 32px rgba(0,0,0,0.12);
+  transform: translateX(100%);
+  transition: transform 240ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+.nd-panel.open {
+  transform: translateX(0);
+}
+
+/* ══════════════════════════════════════════════════════════════════════════ */
+/*  COMPONENT CLASSES                                                         */
+/* ══════════════════════════════════════════════════════════════════════════ */
+@layer components {
+  .card {
+    @apply rounded-xl border shadow-sm;
+    background-color: var(--nd-card-bg, #FFFFFF);
+    color: var(--nd-text, #111827);
+    border-color: var(--nd-border, #E5E7EB);
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-4 py-2 bg-brand-600 text-white text-sm font-medium rounded-lg
+           hover:bg-brand-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 px-4 py-2 bg-white text-gray-700 text-sm font-medium rounded-lg
+           border border-gray-300 hover:bg-gray-50 transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-danger {
+    @apply inline-flex items-center gap-2 px-4 py-2 bg-red-600 text-white text-sm font-medium rounded-lg
+           hover:bg-red-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .input {
+    @apply w-full px-3 py-2 text-sm border border-gray-300 rounded-lg
+           focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-shadow;
+  }
+  .label { @apply block text-sm font-medium text-gray-700 mb-1; }
+  .badge { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium; }
+  .sidebar-link {
+    @apply flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium
+           text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors cursor-pointer;
+  }
+  .sidebar-link.active { @apply bg-brand-50 text-brand-700; }
+}

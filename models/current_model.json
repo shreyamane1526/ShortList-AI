@@ -1,0 +1,29 @@
+{
+  "model_version": "v0",
+  "active_model_path": "agents/ranking_agent/models/xgb_model.pkl",
+  "registry_path": "models/registry",
+  "training_date": null,
+  "dataset_size": 0,
+  "accuracy": null,
+  "precision": null,
+  "recall": null,
+  "fairness_score": null,
+  "drift_score": null,
+  "feature_schema": {
+    "version": "ranking_features_v1",
+    "columns": [
+      "reasoning_score",
+      "fit_score",
+      "trust_score",
+      "critical_gaps",
+      "moderate_gaps",
+      "nd_strengths",
+      "recommendation_score"
+    ]
+  },
+  "validation": {
+    "passed": true,
+    "issues": []
+  },
+  "promoted": true
+}

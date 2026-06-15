@@ -1,0 +1,30 @@
+{
+  "candidate_id": "AdwikaVishal",
+  "generated_at": "2026-05-05T19:39:00.437414",
+  "nd_signal_detected": false,
+  "proxies_removed": [
+    "accent_flag",
+    "age_proxy",
+    "career_gap_penalty",
+    "communication_style_score",
+    "grammar_score",
+    "interview_poise_score",
+    "profile_completeness_score",
+    "profile_photo_score",
+    "university_prestige_score"
+  ],
+  "fairness_score": 0.7,
+  "selection_factors": [
+    "Verified skill: Strong Python skills",
+    "Verified skill: Experience with backend development",
+    "Verified skill: API design skills",
+    "Verified skill: Exposure to machine learning"
+  ],
+  "risk_flags": [
+    "Low evidence authenticity (45/100) \u2014 review integrity flags before final decision",
+    "Integrity [authorship_mismatch]: 'SIH--frontend' commits mostly from unrelated email addresses"
+  ],
+  "nd_strength_uplifts": [],
+  "recommendation_before_inclusion": "yes",
+  "recommendation_after_inclusion": "yes"
+}

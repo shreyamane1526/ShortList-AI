@@ -1,0 +1,417 @@
+# sample_jds.txt
+
+Backend Engineer
+
+We are looking for a Backend Engineer with experience building scalable APIs and distributed systems.
+
+Requirements:
+
+* Strong Python experience
+* FastAPI or Django
+* PostgreSQL
+* REST APIs
+* Docker
+* Git
+
+Preferred:
+
+* Redis
+* Kubernetes
+* AWS
+
+====================
+
+Frontend Engineer
+
+Seeking a Frontend Engineer to build responsive web applications and reusable UI components.
+
+Requirements:
+
+* React
+* TypeScript
+* HTML/CSS
+* State management libraries
+* REST API integration
+
+Preferred:
+
+* Next.js
+* Tailwind CSS
+* Vercel deployment
+
+====================
+
+Machine Learning Engineer
+
+Hiring a Machine Learning Engineer to develop and deploy deep learning models for production systems.
+
+Requirements:
+
+* Python
+* PyTorch
+* Machine Learning fundamentals
+* Data preprocessing
+* Model evaluation
+
+Preferred:
+
+* MLOps
+* Docker
+* AWS SageMaker
+* Kubernetes
+
+====================
+
+DevOps Engineer
+
+Looking for a DevOps Engineer experienced in CI/CD pipelines and cloud infrastructure automation.
+
+Requirements:
+
+* Docker
+* Kubernetes
+* Linux
+* CI/CD pipelines
+* Terraform
+
+Preferred:
+
+* AWS
+* Prometheus
+* Grafana
+* Helm
+
+====================
+
+Cloud Engineer
+
+We are seeking a Cloud Engineer to manage scalable cloud-native infrastructure.
+
+Requirements:
+
+* AWS or Azure
+* Infrastructure as Code
+* Networking fundamentals
+* Linux administration
+* Security best practices
+
+Preferred:
+
+* Terraform
+* Kubernetes
+* Monitoring tools
+
+====================
+
+Data Engineer
+
+Seeking a Data Engineer to build reliable ETL pipelines and large-scale data infrastructure.
+
+Requirements:
+
+* Python
+* SQL
+* Apache Spark
+* Data warehousing
+* ETL pipelines
+
+Preferred:
+
+* Kafka
+* Airflow
+* Snowflake
+* AWS
+
+====================
+
+Mobile Application Developer
+
+Looking for a Mobile Developer to create cross-platform applications.
+
+Requirements:
+
+* Flutter or React Native
+* Mobile UI development
+* API integration
+* State management
+
+Preferred:
+
+* Firebase
+* App Store deployment
+* Performance optimization
+
+====================
+
+Cybersecurity Analyst
+
+Seeking a Cybersecurity Analyst to monitor threats and improve organizational security posture.
+
+Requirements:
+
+* SIEM tools
+* Incident response
+* Network security
+* Vulnerability assessment
+
+Preferred:
+
+* SOC operations
+* Cloud security
+* Splunk
+* Threat intelligence
+
+====================
+
+Full Stack Engineer
+
+We are hiring a Full Stack Engineer with strong frontend and backend development experience.
+
+Requirements:
+
+* JavaScript
+* React
+* Node.js
+* REST APIs
+* PostgreSQL
+
+Preferred:
+
+* Docker
+* AWS
+* TypeScript
+* CI/CD
+
+====================
+
+AI Research Engineer
+
+Looking for an AI Research Engineer to work on LLMs and generative AI systems.
+
+Requirements:
+
+* Python
+* Deep Learning
+* Transformers
+* PyTorch
+* NLP fundamentals
+
+Preferred:
+
+* LangChain
+* Vector databases
+* RAG systems
+* CUDA
+
+====================
+
+QA Automation Engineer
+
+Seeking a QA Automation Engineer to improve testing reliability and software quality.
+
+Requirements:
+
+* Selenium
+* API testing
+* Python or Java
+* Test automation frameworks
+
+Preferred:
+
+* Playwright
+* CI/CD integration
+* Performance testing
+
+====================
+
+Site Reliability Engineer
+
+Hiring an SRE to maintain highly available production systems.
+
+Requirements:
+
+* Linux
+* Kubernetes
+* Monitoring systems
+* Incident management
+* Scripting
+
+Preferred:
+
+* Prometheus
+* Grafana
+* AWS
+* Terraform
+
+====================
+
+Product Manager
+
+Seeking a Product Manager to define roadmap priorities and collaborate with engineering teams.
+
+Requirements:
+
+* Product strategy
+* Agile methodologies
+* Stakeholder communication
+* Roadmap planning
+
+Preferred:
+
+* Analytics tools
+* Technical product experience
+* Jira
+
+====================
+
+UI/UX Designer
+
+Looking for a UI/UX Designer to create intuitive user experiences and scalable design systems.
+
+Requirements:
+
+* Figma
+* User research
+* Wireframing
+* Prototyping
+
+Preferred:
+
+* Design systems
+* Accessibility standards
+* Frontend collaboration
+
+====================
+
+Blockchain Engineer
+
+Hiring a Blockchain Engineer to build decentralized applications and smart contracts.
+
+Requirements:
+
+* Solidity
+* Smart contract development
+* Ethereum ecosystem
+* Web3 fundamentals
+
+Preferred:
+
+* Hardhat
+* Security auditing
+* Layer 2 solutions
+
+====================
+
+Data Scientist
+
+Seeking a Data Scientist to analyze business data and build predictive models.
+
+Requirements:
+
+* Python
+* Machine Learning
+* Statistics
+* SQL
+* Data visualization
+
+Preferred:
+
+* TensorFlow
+* A/B testing
+* BigQuery
+
+====================
+
+Platform Engineer
+
+Looking for a Platform Engineer to build internal developer platforms and scalable infrastructure.
+
+Requirements:
+
+* Kubernetes
+* CI/CD
+* Infrastructure automation
+* Linux
+
+Preferred:
+
+* Terraform
+* GitOps
+* Observability tools
+
+====================
+
+MLOps Engineer
+
+Seeking an MLOps Engineer to operationalize machine learning workflows and deployment pipelines.
+
+Requirements:
+
+* Python
+* ML deployment
+* Docker
+* CI/CD
+* Kubernetes
+
+Preferred:
+
+* Kubeflow
+* MLflow
+* AWS SageMaker
+
+====================
+
+Embedded Systems Engineer
+
+Hiring an Embedded Systems Engineer for low-level firmware and hardware integration.
+
+Requirements:
+
+* C/C++
+* Embedded Linux
+* Microcontrollers
+* Debugging tools
+
+Preferred:
+
+* RTOS
+* Hardware protocols
+* IoT systems
+
+====================
+
+Technical Support Engineer
+
+Seeking a Technical Support Engineer to troubleshoot customer issues and maintain platform reliability.
+
+Requirements:
+
+* Troubleshooting
+* Linux basics
+* Networking fundamentals
+* Customer communication
+
+Preferred:
+
+* SQL
+* Cloud platforms
+* Monitoring tools
+
+====================
+
+Business Intelligence Engineer
+
+Looking for a BI Engineer to create dashboards and business reporting systems.
+
+Requirements:
+
+* SQL
+* Power BI or Tableau
+* Data modeling
+* Reporting
+
+Preferred:
+
+* ETL pipelines
+* Python
+* Data warehousing

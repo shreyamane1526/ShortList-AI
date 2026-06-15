@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "job_description": "Seeking a Backend Platform Engineer experienced in Golang, microservices, PostgreSQL and distributed systems design. Experience with Docker and Kafka is preferred."
+  },
+  {
+    "id": 2,
+    "job_description": "Hiring a Frontend Developer to create scalable React applications with TypeScript and modern state management libraries."
+  },
+  {
+    "id": 3,
+    "job_description": "Looking for an AI Engineer skilled in LLM applications, vector databases, LangChain and retrieval augmented generation systems."
+  },
+  {
+    "id": 4,
+    "job_description": "Seeking a Cloud Infrastructure Engineer with experience in AWS, Terraform, Kubernetes and infrastructure automation."
+  },
+  {
+    "id": 5,
+    "job_description": "Hiring a Data Scientist with expertise in machine learning, Python, SQL and statistical analysis for predictive modeling."
+  },
+  {
+    "id": 6,
+    "job_description": "Looking for a Security Engineer experienced in SIEM platforms, threat detection and cloud security best practices."
+  },
+  {
+    "id": 7,
+    "job_description": "Seeking a Mobile Engineer with Flutter and Firebase experience to build high-performance mobile applications."
+  },
+  {
+    "id": 8,
+    "job_description": "Hiring an MLOps Specialist to manage model deployment pipelines using MLflow, Docker and Kubernetes."
+  },
+  {
+    "id": 9,
+    "job_description": "Looking for a Site Reliability Engineer familiar with Prometheus, Grafana, Linux systems and incident response."
+  },
+  {
+    "id": 10,
+    "job_description": "Seeking a QA Automation Specialist with Playwright, Selenium and API testing experience."
+  },
+  {
+    "id": 11,
+    "job_description": "Hiring a Full Stack Developer with expertise in Node.js, React, PostgreSQL and CI/CD workflows."
+  },
+  {
+    "id": 12,
+    "job_description": "Looking for a Machine Learning Researcher experienced in transformers, NLP and deep learning optimization."
+  },
+  {
+    "id": 13,
+    "job_description": "Seeking a DevSecOps Engineer with experience integrating security tooling into Kubernetes and CI/CD environments."
+  },
+  {
+    "id": 14,
+    "job_description": "Hiring a Data Engineer skilled in Apache Spark, Kafka, ETL pipelines and cloud-based data warehouses."
+  },
+  {
+    "id": 15,
+    "job_description": "Looking for a UI Engineer experienced in Next.js, Tailwind CSS and responsive component design."
+  },
+  {
+    "id": 16,
+    "job_description": "Seeking a Blockchain Developer with Solidity and smart contract auditing experience."
+  },
+  {
+    "id": 17,
+    "job_description": "Hiring an Embedded Software Engineer experienced in C++, RTOS and microcontroller firmware development."
+  },
+  {
+    "id": 18,
+    "job_description": "Looking for a Product Analyst skilled in SQL, Power BI and business intelligence reporting."
+  },
+  {
+    "id": 19,
+    "job_description": "Seeking a Platform Engineer with GitOps, Kubernetes and infrastructure reliability experience."
+  },
+  {
+    "id": 20,
+    "job_description": "Hiring a Computer Vision Engineer with OpenCV, PyTorch and image processing experience."
+  }
+]
